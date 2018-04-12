@@ -5,6 +5,8 @@ out
 *.iws
 .DS_Store
 
+bin/test/
+
 # .gitignore NetBeans Gradle projects
 # NetBeans
 .nb-gradle/
