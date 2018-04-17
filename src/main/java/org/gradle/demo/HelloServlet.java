@@ -41,7 +41,7 @@ public class HelloServlet extends HttpServlet {
     }
     
     private static Connection getConnection() throws URISyntaxException, SQLException {
-        URI dbUri = new URI("DATABASE_URL");
+        URI dbUri = new URI("CLEARDB_DATABASE_URL");
 
         String username = dbUri.getUserInfo().split(":")[0];
         String password = dbUri.getUserInfo().split(":")[1];
